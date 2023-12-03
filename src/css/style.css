@@ -49,7 +49,7 @@ body {
 }
 
 #quizone {
-	position: absolute;
+	background-image: url('src/images/quizbackground.jpg');
 }
 
 .buttonone {
@@ -82,4 +82,12 @@ body {
 	}
 
 
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
 }

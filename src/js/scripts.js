@@ -37,18 +37,24 @@ async function getAirtableData() {
 		.catch(error => console.error('Error:', error));
 }
 
-// Get the button
-//const button = document.querySelector('#getdata');
 
-//button.addEventListener('click', getAirtableData);
+
+const button = document.querySelector('.buttonone');
 
 
 document.querySelector(".buttonone").addEventListener('click', getQuizOne);
 function getQuizOne() {
-	var x = document.getElementById("quizone");
-	if (x.style.display === "none") {
-		x.style.display = "block";
-	} else {
-		x.style.display = "none";
-	}
+	var section = document.querySelector("#quizone");
+	section.classList.add("show");
+
+	var section = document.querySelector("#homepage");
+	section.classList.add("hide");
 }
+
+const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+
+checkboxes.forEach(checkbox => {
+	console.log(checkbox.value);
+});
+
+
