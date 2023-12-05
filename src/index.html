@@ -22,59 +22,194 @@
 		</section>
 
 		<section class="main-title">
-			<h1>Next Best Sing</h1>
+			<h1 class="title">Next Best Sing</h1>
 		</section>
 
-		<section class="subtitle">
-			<h2>Discover new artists similar to those you already love.</h2>
+		<section>
+			<h2 class="subtitle">Discover new artists similar to those you already love.</h2>
 		</section>
 
 		<button class="buttonone">Begin</button>
 	</section>
 
-	<script src="js/scripts.js"></script>
 
-</body>
 
-</html>
 
-<html>
 
-<body>
-	<section id="quizone">
-		<h1>Which music genres do you love the most?</h1>
-		<form>
-			<input type="checkbox" id="genre1" name="genre1" value="pop">
-			<label for="genre1">Pop</label><br>
-
-			<input type="checkbox" id="genre2" name="genre2" value="rock">
-			<label for="genre2">Rock</label><br>
-
-			<input type="checkbox" id="genre3" name="genre3" value="country">
-			<label for="genre3">Country</label><br>
-
-			<input type="checkbox" id="genre4" name="genre4" value="hiphop">
-			<label for="genre4">Hip-Hop</label>
-
-			<input type="checkbox" id="genre5" name="genre5" value="indierock">
-			<label for="genre5">Indie Rock</label>
-
-			<input type="checkbox" id="genre6" name="genre6" value="alternative">
-			<label for="genre6">Alternative</label>
-
-			<input type="checkbox" id="genre7" name="genre7" value="metal">
-			<label for="genre7">Metal</label>
-
-			<input type="checkbox" id="genre8" name="genre8" value="electronic">
-			<label for="genre8">Electronic</label>
-
-			<input type="checkbox" id="genre9" name="genre9" value="folk">
-			<label for="genre9">Folk</label>
-
-			<input type="checkbox" id="genre10" name="genre10" value="indiepop">
-			<label for="genre10">Indie Pop</label>
-		</form>
+	<section id="quizone" class="hide">
+		<image class="restart" src="images/restart.png"></image>
+		<h1 class="question">Which music genres do you love the most?</h1>
+		<h4 class="selectall">(Select all that apply.)</h4>
+		<section class="checkbox-container">
+			<section class="itemone">
+				<input type="checkbox" id="genre1" name="genre" value="pop">
+				<label for="genre1">Pop</label><br>
+			</section>
+			<section class="itemone">
+				<input type="checkbox" id="genre2" name="genre" value="rock">
+				<label for="genre2">Rock</label><br>
+			</section>
+			<section class="itemone">
+				<input type="checkbox" id="genre3" name="genre" value="country">
+				<label for="genre3">Country</label><br>
+			</section>
+			<section class="itemone">
+				<input type="checkbox" id="genre4" name="genre" value="hiphop">
+				<label for="genre4">Hip-Hop</label>
+			</section>
+			<section class="itemone">
+				<input type="checkbox" id="genre5" name="genre" value="indierock">
+				<label for="genre5">Indie Rock</label>
+			</section>
+			<section class="itemone">
+				<input type="checkbox" id="genre6" name="genre" value="alternative">
+				<label for="genre6">Alternative</label>
+			</section>
+			<section class="itemone">
+				<input type="checkbox" id="genre7" name="genre" value="metal">
+				<label for="genre7">Metal</label>
+			</section>
+			<section class="itemone">
+				<input type="checkbox" id="genre8" name="genre" value="electronic">
+				<label for="genre8">Electronic</label>
+			</section>
+			<section class="itemone">
+				<input type="checkbox" id="genre9" name="genre" value="folk">
+				<label for="genre9">Folk</label>
+			</section>
+			<section class="itemone">
+				<input type="checkbox" id="genre10" name="genre" value="indiepop">
+				<label for="genre10">Indie Pop</label>
+			</section>
+		</section>
+		<button class="buttontwo">Next</button>
 	</section>
+
+	<section id="quiztwo" class="hide">
+		<image class="restart" src="images/restart.png"></image>
+		<h1 class="question">What word best describes your current favorite artist?</h1>
+		<section>
+			<form class="radiobutton-containerone">
+				<section class="itemtwo">
+					<input type="radio" id="adjective1" name="adjective" value="Loud">
+					<label for="adjective1">Loud</label>
+				</section>
+				<section class="itemtwo">
+					<input type="radio" id="adjective2" name="adjective" value="Hype">
+					<label for="adjective2">Hype</label>
+				</section>
+				<section class="itemtwo">
+					<input type="radio" id="adjective3" name="adjective" value="Chill">
+					<label for="adjective3">Chill</label>
+				</section>
+				<section class="itemtwo">
+					<input type="radio" id="adjective4" name="adjective" value="Fun">
+					<label for="adjective4">Fun</label>
+				</section>
+				<section class="itemtwo">
+					<input type="radio" id="adjective5" name="adjective" value="Sad">
+					<label for="adjective5">Sad</label>
+				</section>
+				<section class="itemtwo">
+					<input type="radio" id="adjective6" name="adjective" value="Angry">
+					<label for="adjective6">Angry</label>
+				</section>
+				<section class="itemtwo">
+					<input type="radio" id="adjective7" name="adjective" value="Psychedelic">
+					<label for="adjective7">Psychedlic</label>
+				</section>
+				<section class="itemtwo">
+					<input type="radio" id="adjective8" name="adjective" value="Quiet">
+					<label for="adjective8">Quiet</label>
+				</section>
+				<section class="itemtwo">
+					<input type="radio" id="adjective9" name="adjective" value="Happy">
+					<label for="adjective9">Happy</label>
+				</section>
+			</form>
+		</section>
+
+		<button class="buttonthree">Next</button>
+	</section>
+
+	<section id="quizthree" class="hide">
+		<image class="restart" src="images/restart.png"></image>
+		<h1 class="question">In what scenarios do you listen to music the most?</h1>
+		<h4 class="selectall">(Select all that apply.)</h4>
+		<section>
+			<form class="radiobutton-containerone">
+				<section class="itemtwo">
+					<input type="checkbox" id="scenario1" name="scenario1" value="walking">
+					<label for="scenario1">Walking</label><br>
+				</section>
+				<section class="itemtwo">
+					<input type="checkbox" id="scenario2" name="scenario2" value="workingout">
+					<label for="scenario2">Working Out</label><br>
+				</section>
+				<section class="itemtwo">
+					<input type="checkbox" id="scenario3" name="scenario3" value="withfriends">
+					<label for="scenario3">With Friends</label><br>
+				</section>
+				<section class="itemtwo">
+					<input type="checkbox" id="scenario4" name="scenario4" value="studying">
+					<label for="scenario4">Studying</label>
+				</section>
+				<section class="itemtwo">
+					<input type="checkbox" id="scenario5" name="scenario5" value="cleaning">
+					<label for="scenario5">Cleaning</label>
+				</section>
+				<section class="itemtwo">
+					<input type="checkbox" id="scenario6" name="scenario6" value="commuting">
+					<label for="scenario6">Commuting</label>
+				</section>
+				<section class="itemtwo">
+					<input type="checkbox" id="scenario7" name="scenario7" value="cooking">
+					<label for="scenario7">Cooking</label>
+				</section>
+				<section class="itemtwo">
+					<input type="checkbox" id="scenario8" name="scenario8" value="relaxing">
+					<label for="scenario8">Relaxing</label>
+				</section>
+				<section class="itemtwo">
+					<input type="checkbox" id="scenario9" name="scenario9" value="dancing">
+					<label for="scenario9">Dancing</label>
+				</section>
+			</form>
+		</section>
+		<button class="buttonfour">Next</button>
+	</section>
+
+	<section id="quizfour" class="hide">
+		<image class="restart" src="images/restart.png"></image>
+		<h1 class="question">Do you listen to more obscure or more popular artists?</h1>
+		<section>
+			<form class="radiobutton-containerone">
+				<section class="itemtwo">
+					<input type="radio" id="obscurity1" name="obscurity1" value="Obscure">
+					<label for="obscurity1">Obscure</label>
+				</section>
+				<section class="itemtwo">
+					<input type="radio" id="obscurity2" name="obscurity2" value="Inthemiddle">
+					<label for="obscurity2">In the middle</label>
+				</section>
+				<section class="itemtwo">
+					<input type="radio" id="obscurity3" name="obscurity3" value="Popular">
+					<label for="obscurity3">Popular</label>
+				</section>
+			</form>
+		</section>
+		<button class="buttonfive">I'm done!</button>
+	</section>
+
+	<section id="resultspage" class="hide">
+		<h1 class="question">You should hear...</h1>
+		<section class="resultscard">
+
+		</section>
+		<button class="restartbutton">Take it again!</button>
+	</section>
+
+	<script src="js/scripts.js"></script>
 </body>
 
 </html>

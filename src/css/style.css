@@ -16,24 +16,51 @@ primary color variable below.
 	--size-xl: 1200px;
 }
 
-h1 {
-	color: var(--color-tertiary);
+.title {
+	color: lightgray;
 	font-size: 110px;
 	text-align: left;
 	margin-top: 18%;
 	margin-bottom: 0px;
-	margin-left: 10px;
+	margin-left: 30px;
 }
 
-h2 {
-	color: var(--color-tertiary);
+.subtitle {
+	color: lightgray;
 	text-align: left;
 	margin-top: 0px;
-	margin-left: 15px;
+	margin-left: 37px;
+}
+
+.question {
+	color: #3c0e31;
+	font-size: 65px;
+	text-align: center;
+	margin-top: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+.selectall {
+	color: #3c0e31;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.restart {
+	width: 30px;
+	height: auto;
+	position: relative;
+	top: 10px;
+	left: 20px;
+	margin-bottom: 10px;
 }
 
 body {
 	font-family: Arial, sans-serif;
+	margin: 0;
 }
 
 #background-video {
@@ -48,10 +75,6 @@ body {
 	z-index: -1;
 }
 
-#quizone {
-	background-image: url('src/images/quizbackground.jpg');
-}
-
 .buttonone {
 	background-color: #33b2dd;
 	color: lightgray;
@@ -61,21 +84,184 @@ body {
 	font-size: 16px;
 	font-family: Arial, sans-serif;
 	font-weight: 850;
-	margin-left: 12px;
-	border-radius: 20px;
+	margin-left: 35px;
+	border-radius: 15px;
 }
+
+#quizone {
+	max-width: 100%;
+	max-height: 100%;
+	background-image: url('../images/quizbackground.jpg');
+	background-size: cover;
+	background-position: center center;
+
+}
+
+#quiztwo {
+	max-width: 100%;
+	max-height: 100%;
+	background-image: url('../images/quizbackground.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#quizthree {
+	max-width: 100%;
+	max-height: 100%;
+	background-image: url('../images/quizbackground.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#quizfour {
+	max-width: 100%;
+	max-height: 100%;
+	background-image: url('../images/quizbackground.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#resultspage {
+	max-width: 100%;
+	max-height: 100%;
+	background-image: url('../images/quizbackground.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.buttontwo {
+	background-color: #3c0e31;
+	color: lightgray;
+	border: none;
+	padding: 15px 32px;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	font-weight: 850;
+	margin-left: 600px;
+	margin-top: 0%;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+
+.buttonthree {
+	background-color: #3c0e31;
+	color: lightgray;
+	border: none;
+	padding: 15px 32px;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	font-weight: 850;
+	margin-left: 600px;
+	margin-top: 2%;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+
+.buttonfour {
+	background-color: #3c0e31;
+	color: lightgray;
+	border: none;
+	padding: 15px 32px;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	font-weight: 850;
+	margin-left: 600px;
+	margin-top: 2%;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+
+.buttonfive {
+	background-color: #3c0e31;
+	color: lightgray;
+	border: none;
+	padding: 15px 32px;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	font-weight: 850;
+	margin-left: 600px;
+	margin-top: 2%;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+
+.restartbutton {
+	background-color: #3c0e31;
+	color: lightgray;
+	border: none;
+	padding: 15px 32px;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	font-weight: 850;
+	margin-left: 600px;
+	margin-top: 2%;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+
+
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-bottom: 5%;
+}
+
+input[type="radio"] {
+	transform: scale(1.5);
+	margin-bottom: 10%;
+}
+
+.checkbox-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	font-family: Arial, sans-serif;
+	color: #3c0e31;
+	margin-left: 28%;
+	margin-top: 70px;
+}
+
+.itemone {
+	grid-row: span 1;
+	font-family: Arial, sans-serif;
+	color: #3c0e31;
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.radiobutton-containerone {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	font-family: Arial, sans-serif;
+	color: #3c0e31;
+	margin-left: 18%;
+	margin-top: 70px;
+}
+
+.itemtwo {
+	font-family: Arial, sans-serif;
+	color: #3c0e31;
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+
 
 /* This uses the same value as --size-xs. */
 @media screen and (width <=320px) {
 
 	.content-container {
-		margin: 0 auto;
+		margin: 0;
 		max-width: 768px;
 	}
 
-	.main-title {
-		font-size: 50px;
-	}
+
 
 	.subtitle {
 		font-size: 20px;
