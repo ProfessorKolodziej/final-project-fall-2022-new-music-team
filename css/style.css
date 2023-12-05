@@ -1,0 +1,279 @@
+/*
+CSS controls the styling of the page.
+You can write a color in directly, or use variables.
+Try changing the color from blue to red in the
+primary color variable below.
+*/
+
+:root {
+	--color-primary: blue;
+	--color-secondary: #c00;
+	--color-tertiary: lightgray;
+	--size-xs: 320px;
+	--size-sm: 480px;
+	--size-md: 768px;
+	--size-lg: 1024px;
+	--size-xl: 1200px;
+}
+
+.title {
+	color: lightgray;
+	font-size: 110px;
+	text-align: left;
+	margin-top: 18%;
+	margin-bottom: 0px;
+	margin-left: 30px;
+}
+
+.subtitle {
+	color: lightgray;
+	text-align: left;
+	margin-top: 0px;
+	margin-left: 37px;
+}
+
+.question {
+	color: #3c0e31;
+	font-size: 65px;
+	text-align: center;
+	margin-top: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+.selectall {
+	color: #3c0e31;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.restart {
+	width: 30px;
+	height: auto;
+	position: relative;
+	top: 10px;
+	left: 20px;
+	margin-bottom: 10px;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+#background-video {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.buttonone {
+	background-color: #33b2dd;
+	color: lightgray;
+	border: none;
+	padding: 15px 32px;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	font-weight: 850;
+	margin-left: 35px;
+	border-radius: 15px;
+}
+
+#quizone {
+	max-width: 100%;
+	max-height: 100%;
+	background-image: url('../images/quizbackground.jpg');
+	background-size: cover;
+	background-position: center center;
+
+}
+
+#quiztwo {
+	max-width: 100%;
+	max-height: 100%;
+	background-image: url('../images/quizbackground.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#quizthree {
+	max-width: 100%;
+	max-height: 100%;
+	background-image: url('../images/quizbackground.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#quizfour {
+	max-width: 100%;
+	max-height: 100%;
+	background-image: url('../images/quizbackground.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#resultspage {
+	max-width: 100%;
+	max-height: 100%;
+	background-image: url('../images/quizbackground.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.buttontwo {
+	background-color: #3c0e31;
+	color: lightgray;
+	border: none;
+	padding: 15px 32px;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	font-weight: 850;
+	margin-left: 600px;
+	margin-top: 0%;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+
+.buttonthree {
+	background-color: #3c0e31;
+	color: lightgray;
+	border: none;
+	padding: 15px 32px;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	font-weight: 850;
+	margin-left: 600px;
+	margin-top: 2%;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+
+.buttonfour {
+	background-color: #3c0e31;
+	color: lightgray;
+	border: none;
+	padding: 15px 32px;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	font-weight: 850;
+	margin-left: 600px;
+	margin-top: 2%;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+
+.buttonfive {
+	background-color: #3c0e31;
+	color: lightgray;
+	border: none;
+	padding: 15px 32px;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	font-weight: 850;
+	margin-left: 600px;
+	margin-top: 2%;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+
+.restartbutton {
+	background-color: #3c0e31;
+	color: lightgray;
+	border: none;
+	padding: 15px 32px;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	font-weight: 850;
+	margin-left: 600px;
+	margin-top: 2%;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+
+
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-bottom: 5%;
+}
+
+input[type="radio"] {
+	transform: scale(1.5);
+	margin-bottom: 10%;
+}
+
+.checkbox-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	font-family: Arial, sans-serif;
+	color: #3c0e31;
+	margin-left: 28%;
+	margin-top: 70px;
+}
+
+.itemone {
+	grid-row: span 1;
+	font-family: Arial, sans-serif;
+	color: #3c0e31;
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.radiobutton-containerone {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	font-family: Arial, sans-serif;
+	color: #3c0e31;
+	margin-left: 18%;
+	margin-top: 70px;
+}
+
+.itemtwo {
+	font-family: Arial, sans-serif;
+	color: #3c0e31;
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+
+
+/* This uses the same value as --size-xs. */
+@media screen and (width <=320px) {
+
+	.content-container {
+		margin: 0;
+		max-width: 768px;
+	}
+
+
+
+	.subtitle {
+		font-size: 20px;
+	}
+
+
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
